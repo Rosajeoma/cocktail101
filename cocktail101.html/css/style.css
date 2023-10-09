@@ -1,0 +1,75 @@
+body {
+    background-image: url(../Pics/abstract-circle-dotted-background-vector-illustration_716564-84.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 15%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 1%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.cocktail-families,
+.populair-cocktails,
+.cocktail-families-sours {
+    font-family: monospace, sans-serif;
+    flex: 1;
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 3px solid #000;
+    max-width: 45%;
+    margin: 2% auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    padding: 2em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cocktail-families-sours {
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.cocktail-button,
+.populair-cocktails .cocktail-button {
+    display: block;
+    width: auto;
+    margin: 2% auto;
+    padding: 1em 2em;
+    text-align: center;
+    background-color: #99b0c8;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cocktail-button:hover,
+.populair-cocktails .cocktail-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.container3 {
+    flex: 0 0 30%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left: 2%;
+}
